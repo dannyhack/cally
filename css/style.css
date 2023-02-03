@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'Poppins-Regular.ttf';
+    src: url(../Poppins-fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins-Regular.ttf';
+    background-color: #c1cad1;
+    padding: 70px 20px;
+}
+.container{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+/* box-1 starts here */
+.box1{
+    width: 29%;
+    height: 57vh;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);
+                overflow-wrap: break-word;
+}
+h1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+.main{
+    font-weight: 570;
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgb(105, 49, 49);
+}
+.input1{
+    padding: 12px 5px;
+    text-align: center;
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid rgb(6, 185, 147);
+    outline: none;
+    border-radius: 5px;
+    width: 68%;
+    margin-top: 20px;
+}
+
+span{
+    position: relative;
+    width: 100%;
+    top: -80px;
+    left: 90px;
+    font-size: 13px;
+    z-index: 2;
+    padding: 5px;
+    background-color: #c1cad1;
+    
+}
+.answer span{
+    position: relative;
+    font-weight: 800;
+    width: 100%;
+    top: -92px;
+    left: 90px;
+    font-size: 13.5px;
+    z-index: 2;
+    padding: 6px;
+    background-color: #c1cad1;
+}
+.result{
+    border: 2px solid rgb(6, 185, 147);
+    height: 12vh;
+    width: 67%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn button{
+    padding: 10px 45px;
+    border-radius: 10px;
+    font-family: 'Poppins-Regular.ttf';
+    font-weight: 700;
+    background-color: rgb(6, 185, 147);
+    border: none;
+}
+/* box-1 ends here */
+
+/* box-2 starts here */
+.box2{
+    width: 30%;
+    height: 68vh;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);
+                overflow-wrap: break-word;
+}
+h1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+.input2{
+    padding: 12px 5px;
+    text-align: center;
+    margin-top: 35px;
+    background: transparent;
+    border: 2px solid rgba(209, 72, 67, 0.767);
+    outline: none;
+    border-radius: 5px;
+    padding-left: 27px;
+    padding-right: 18px;
+    width: 68%;
+    margin-top: 20px;
+}
+.sec{
+    margin-top: 40px;
+}
+
+span{
+    position: relative;
+    font-weight: 800;
+    width: 100%;
+    top: -56px;
+    left: 90px;
+    font-size: 13px;
+    z-index: 2;
+    padding: 5px;
+    background-color: #c1cad1;
+    
+}
+.answer2 span{
+    position: relative;
+    font-weight: 800;
+    width: 100%;
+    top: -93px;
+    left: 90px;
+    font-size: 13.5px;
+    z-index: 2;
+    padding: 6px;
+    background-color: #c1cad1;
+}
+.result2{
+    border: 2px solid rgba(209, 72, 67, 0.767);
+    height: 12vh;
+    width: 67%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn2 button{
+    padding: 10px 45px;
+    border-radius: 10px;
+    font-family: 'Poppins-Regular.ttf';
+    font-weight: 700;
+    background-color: rgb(209, 71, 67);
+    border: none;
+}
+
+/* box-3 starts here */
+.box3{
+    width: 29%;
+    height: 57vh;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);
+}
+h1{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+.input3{
+    padding: 12px 5px;
+    text-align: center;
+    /* font-size: 18px; */
+    background: transparent;
+    border: 2px solid rgb(202, 174, 12);
+    outline: none;
+    border-radius: 5px;
+    width: 68%;
+    margin-top: 20px;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    position: relative;
+    width: 100%;
+    top: -56px;
+    left: 90px;
+    font-size: 13px;
+    z-index: 2;
+    padding: 5px;
+    background-color: #c1cad1;
+    
+}
+.answer-3 span{
+    position: relative;
+    font-weight: 800;
+    width: 100%;
+    top: -92px;
+    left: 90px;
+    font-size: 13.5px;
+    z-index: 2;
+    padding: 6px;
+    background-color: #c1cad1;
+}
+.result3{
+    border: 2px solid rgb(202, 174, 12);
+    height: 12vh;
+    width: 67%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn3 button{
+    padding: 10px 53px;
+    border-radius: 10px;
+    font-family: 'Poppins-Regular.ttf';
+    font-weight: 700;
+    background-color: rgb(202, 174, 12);
+    border: none;
+}
+/* box-3 ends here */
+.ex{
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    left: 48.5%;
+    top: -10px;
+}
+.x{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left: 195px;
+    top: -10px;
+}
+.buttom{
+    margin-top: -26px;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        flex-wrap: wrap;
+        gap: 3em;
+        padding: 0px 15px;
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        margin-top: -25px;
+        padding-bottom: 20px;
+    }
+    .box1 button{
+        margin-bottom: 20px;
+    }
+    .box2{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .box2 .buttom{
+        margin-bottom: 20px;
+    }
+
+    .box3{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+    .box3 button{
+        margin-bottom: 20px;
+    }
+    
+    body{
+        height: 175vh;
+    }
+    .answer-3 span, .answer2 span, .answer span{
+        top: -98px;
+        left: 60px;
+    }
+    
+    span{
+        top: -66px;
+        left: 60px;
+    }
+    .input1, .result, .input2, .result2, .input3, .result3{
+        width: 80%;
+        font-size: 20px;
+    }
+    .result, .result2, .result3{
+        height: 10vh;
+    }
+
+}
+   
