@@ -158,13 +158,12 @@ span{
 }
 .result2{
     border: 2px solid rgba(209, 72, 67, 0.767);
-    /* height: 12vh; */
+    height: 12vh;
     width: 67%;
     margin: auto;
     margin-top: 20px;
     text-align: center;
-    /* padding-top: 25px; */
-    padding: ;
+    padding-top: 25px;
     font-size: 20px;
     border-radius: 5px;
 }
@@ -328,6 +327,7 @@ span{
     }
     .result, .result2, .result3{
         padding: 50px ;
+        text-align: center;
     }
 
 }
